@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Cars</title>
+</head>
+<body>
+    <section class="top-sec sec">
+        <header>
+            <a href="./index.html"><img src="./images/logo2.png" alt="page-logo" class="logo" width="180"></a>
+
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#ourStudio">Our Studio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="#newsLetter">Newsletter</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Kenny's Vintage<br><span>Collection</span></h2>
+                <p>Welcome to Kenny's Car Studio. For all you Vintage car lovers out there, we welcome you to Heaven.
+                    Our Studio Holds over 300+ Vintage cars of all Models and Makes.
+                    Come and see for yourself.
+                </p>
+                    <a href="mailto:aoyetibo@hotmail.com">Email Us</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="./images/traffic.gif" alt="Red-Bumblebee" class="cars">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="./images/bumb1.jpg" alt="pic1" onclick="imgSlider('./images/bumb1.jpg'); changeBgColor('#056470')"></li>
+            <li><img src="./images/bumb2.jpg" alt="pic1" onclick="imgSlider('./images/bumb2.jpg'); changeBgColor('#570A23')"></li>
+            <li><img src="./images/bumb3.jpg" alt="pic1" onclick="imgSlider('./images/bumb3.jpg'); changeBgColor('#1e1e1e')"></li>
+        </ul >
+
+        <ul class="sci">
+            <li><a href="#"><img src="./images/facebook.png" alt="facebbok"></a></li>
+            <li><a href="#"><img src="./images/twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="./images/instagram.png" alt="Instagram"></a></li>
+        </ul>
+    </section>
+
+    <section class="mid-sec">
+        <div class="content">
+            <div id="ourStudio" class="mid-textBox">
+                <h3>Our Studio</h3>
+                <p>The Studio had it's first showcase in 1999 under the leadership of <strong>Herold James</strong>, and has had subsequently sucessfull showcases ever since.</p>
+                <p>We hold one of the worlds largest collection of vintage automobiles. Our studio holds cars from all over the world, some of our collections include, <span>1967 chevy Corvette, Jaguar E-Type, 1966 Lamborghini Minura, the 1974 redesigned Porsche 911, 1949 Rolls-Royce Dawn Drophead
+                    1962 Ferrari 250 GTO, Aston Martin DB4</span>, and many more.
+                </p>
+                <p>To receive new about upcoming showcases and Ticket Prices, suscribe to our <a href="./newsLetter.html">Newsletter</a></p>.
+            </div>
+
+            <div class="mid-imgBox">
+                <img src="./images/traffic2.gif" alt="">
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section class="bottom-sec">
+        <div class="mid-vid">
+            <img src="./images/cars.gif" alt="Mid Traffic">
+        </div>
+        <div id="newsLetter" class="newsContent">
+            <h3>News-Letter</h3>
+            <div class="newsForm">
+                <p>Suscribe To Our NewsLetter To recieve weekly updates and Events News, For upcoming Showcaases and ticket prices</p>
+                <div>
+                    <form action="">
+                        <div>
+                            <input type="email" name="email" id="Email" placeholder="Email-Address">
+                            <button type="submit" class="suscribe-btn" value="Suscribe">Suscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <footer>
+            <p>Copyright &copy; O.A.G Studios. All Rights Reserved</p>
+        </footer>
+    </div>
+
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
